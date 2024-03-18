@@ -9,7 +9,7 @@ public class CarListTest {
 
     @BeforeEach
     public void setUp() throws Exception {
-        carList = new CarLinkedList();
+        carList = new CarArrayList(); //CarLinkedList or CarArrayList
         for (int i = 0; i < 100; i++) {
             carList.add(new Car("Brand" + i, i));
         }

@@ -1,4 +1,4 @@
-public interface CarSet extends CarCollection {
+public interface CarCollection extends Iterable<Car> {
     boolean add(Car car);
 
     boolean remove(Car car);
@@ -6,4 +6,6 @@ public interface CarSet extends CarCollection {
     int size();
 
     void clear();
+
+    boolean contains(Car car);
 }

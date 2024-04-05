@@ -48,3 +48,8 @@ HashSet
 ![image](https://github.com/WolfhoundAD/Java-Collections/assets/117926023/bec736a4-810a-4303-b026-470895322367)
 ![image](https://github.com/WolfhoundAD/Java-Collections/assets/117926023/ca962ca9-9828-4279-a6a5-b5fc8450a814)
 ![image](https://github.com/WolfhoundAD/Java-Collections/assets/117926023/e1fc5ff5-f0c5-416f-ace2-78849847d04f)
+![image](https://github.com/WolfhoundAD/Java-Collections/assets/117926023/f900c87e-3f06-43cf-a72a-9f080fd3f442)
+![image](https://github.com/WolfhoundAD/Java-Collections/assets/117926023/3cbcb04a-efd9-440e-8e53-aa1389448969)
+![image](https://github.com/WolfhoundAD/Java-Collections/assets/117926023/ab35b046-e347-4bd8-b37a-5a3bcdc84caa)
+![image](https://github.com/WolfhoundAD/Java-Collections/assets/117926023/eac723ae-4b93-4e10-8ede-816cf90b95be)
+![image](https://github.com/WolfhoundAD/Java-Collections/assets/117926023/ea7f66f6-f5eb-4d18-8120-ad72841a0dab)

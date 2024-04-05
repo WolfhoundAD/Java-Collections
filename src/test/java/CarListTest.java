@@ -5,11 +5,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class CarListTest {
 
-    private CarList carList;
+    private CarList<Car> carList;
 
     @BeforeEach
     public void setUp() throws Exception {
-        carList = new CarArrayList(); //CarLinkedList or CarArrayList
+        carList = new CarArrayList<>();
         for (int i = 0; i < 100; i++) {
             carList.add(new Car("Brand" + i, i));
         }
@@ -42,7 +42,7 @@ public class CarListTest {
         assertEquals(100, carList.size());
     }
 
-    @Test()
+    @Test
     public void whenListClearedThenSizeMustBe0() {
         carList.clear();
         assertEquals(0, carList.size());

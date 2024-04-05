@@ -2,13 +2,13 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class CarHashSet implements CarSet {
+public class CarHashSet<T> implements CarSet<T> {
 
-    private Map<Car, Object> map = new HashMap<>();
+    private Map<T, Object> map = new HashMap<>();
     private Object object = new Object();
 
     @Override
-    public boolean add(Car car) {
+    public boolean add(T car) {
         if (map.containsKey(car)) {
             return false;
         }
@@ -17,13 +17,13 @@ public class CarHashSet implements CarSet {
     }
 
     @Override
-    public boolean remove(Car car) {
+    public boolean remove(T car) {
         Object removed = map.remove(car);
         return removed != null;
     }
 
     @Override
-    public boolean contains(Car car) {
+    public boolean contains(T car) {
         return map.containsKey(car);
     }
 
@@ -38,7 +38,7 @@ public class CarHashSet implements CarSet {
     }
 
     @Override
-    public Iterator<Car> iterator() {
+    public Iterator<T> iterator() {
         return map.keySet().iterator();
     }
 }
